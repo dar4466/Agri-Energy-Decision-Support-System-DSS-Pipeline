@@ -1,0 +1,14 @@
+# Python environment and caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Downloaded/derived data (re-created by the pipeline) and API cache
+data/*.zip
+data/.cache/
+
+# Windows download markers (WSL)
+*:Zone.Identifier
+
+# Assessment brief (not ours to publish)
+*.pdf
